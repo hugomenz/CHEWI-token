@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+    color: #FFDE06;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+@font-face {
+    font-family: "starwars";
+    src: local("starwars"), url(./assets/fuentes/STARWARS.TTF) format("truetype");
+}
+
+.star {
+    font-family: "starwars", Arial, Helvetica, sans-serif;
+}
