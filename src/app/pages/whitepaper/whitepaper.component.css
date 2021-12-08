@@ -1,0 +1,59 @@
+.nuggets {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 40em;
+    opacity: 0;
+}
+
+.nuggets--list {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.nuggets--content.with-img {
+    max-width: 75%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: middle;
+    display: block;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+}
+
+.nuggets--content {
+    width: 100%;
+    float: right;
+}
+
+.nuggets--number {
+    color: #f5ee2e;
+    font-family: STARWARS;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1;
+    border-bottom: 4px solid rgba(245, 238, 46, 0.712);
+}
+
+.nuggets--info {
+    margin-top: 1em;
+    font-family: Benton, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #f7f7f7;
+}
+
+.nuggets--img {
+    max-width: 200px;
+    float: left;
+    padding-right: 1em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: middle;
+    box-sizing: 200px;
+}
