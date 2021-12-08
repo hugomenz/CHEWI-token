@@ -1,21 +1,39 @@
-<div class="margintop" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap="50px" fxLayout="" fxLayoutAlign="center center">
+<div class="margintop animate__animated animate__fadeInRight" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap="50px" fxLayout="" fxLayoutAlign="center center" [style.margin]="'15px'">
 
 
-    <mat-card class="example-card">
+    <mat-card class="example-card star1">
         <mat-card-title-group>
-            <mat-card-title>Get Chewi</mat-card-title>
-            <mat-card-subtitle>Next memeToken revolution</mat-card-subtitle>
+            <mat-card-title>How to buy CHEWi (Faucet) - <span class="spacer"></span>
+                <fa-icon [icon]="faClipboard" (click)="copyToClipboard()" class="clicked"></fa-icon>
+            </mat-card-title>
+            <mat-card-subtitle class="star1">Next memeToken Revolution </mat-card-subtitle>
 
-            <img mat-card-xl-image src="../../../assets/img/chewi qr.JPG">
         </mat-card-title-group>
-        <mat-card-content>
-            <p class="letters" fxLayout fxLayoutAlign="center">
-                Send ada, receive $chewi and be refunded by 2 adas always.
+        <mat-card-content class="letters">
+
+            <p>1- use Daedalus, Yoroi, Nami, AdaLite or any other Shelley era wallet.</p>
+            <p> Do NoT SEND ANY FuNDS FRoM AN EXCHANGE (Binance, Coinbase, etc.), your funds will be lost.</p>
+            <p>2- Click on the qR code for copy the address, or send directly scanning with your selected wallet.
             </p>
+            <p>Depending on the quantity sent, you will receive the following amount of CHEWi :</p>
+
+
+            <ul>
+                <li>2 - 5 ADA -- 10.000 CHEWis/ADA</li>
+                <li>5 - 10 ADA -- 12.000 CHEWis/ADA</li>
+                <li>10 - 20 ADA -- 15.000 CHEWis/ADA</li>
+                <li>20 - 50 ADA -- 20.000 CHEWis/ADA</li>
+                <li>More of 50 ADAs -- 30.000 CHEWis/ADA</li>
+
+            </ul>
+            <p>3- Receive your CHEWi tokens within 10 minutes. You will receive 1,5 ADAs refunded.
+            </p>
+
         </mat-card-content>
     </mat-card>
 
-    <div>
-        <img class="minichewi" src="../../../assets/img/chewi-img.png">
+    <div class="clicked">
+        <img (click)="copyToClipboard()" class="minichewi" src="../../../assets/img/chewi qr.JPG" alt="">
     </div>
+
 </div>

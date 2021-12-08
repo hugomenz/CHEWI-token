@@ -15,8 +15,13 @@
 }
 
 .letters {
-    font-size: 25px;
     color: #FFDE06;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.clicked {
+    cursor: pointer;
 }

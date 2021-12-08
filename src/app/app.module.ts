@@ -12,10 +12,11 @@ import { GetChewisComponent } from './pages/get-chewis/get-chewis.component';
 import { WhitepaperComponent } from './pages/whitepaper/whitepaper.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import  { PdfViewerModule }  from  'ng2-pdf-viewer';
+
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -32,10 +33,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     MaterialModule,
     MatListModule,
-    PdfViewerModule,
     FormsModule,
     FlexLayoutModule,
-    FontAwesomeModule    
+    FontAwesomeModule,
+    MatSnackBarModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

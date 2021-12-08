@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class WhitepaperComponent {
 
-  pdfFilePath = "https://orimi.com/pdf-test.pdf";
+
 
   
 }

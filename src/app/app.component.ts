@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faFacebook, faTelegram, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faFacebook, faTelegram, faTwitter} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -13,5 +13,6 @@ export class AppComponent {
   faFacebook = faFacebook;
   faTelegram = faTelegram;
   faTwitter = faTwitter;
+  faDiscord = faDiscord;
 
 }

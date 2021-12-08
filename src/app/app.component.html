@@ -11,9 +11,9 @@
                 <span class="spacer"></span>
 
 
-                <button mat-icon-button (click)="sidenav.toggle()">
+                <button mat-icon-button (click)="sidenav.toggle()" color="yellow">
 
-                <mat-icon>
+                <mat-icon >
                     menu
                 </mat-icon>
             </button>
@@ -33,25 +33,20 @@
                   Whitepaper
               </span>
                 </a>
-                <a routerLink="/contact" mat-list-item (click)="sidenav.toggle()">
-                    <mat-icon mat-list-icon>contact_support</mat-icon>
-                    <span>
-                  Contact
-              </span>
-                </a>
+
             </mat-nav-list>
 
         </mat-sidenav>
 
         <mat-toolbar class="containered">
-            <button mat-icon-button (click)="sidenav.toggle()">
-          <mat-icon>
+            <button mat-icon-button class="icon" (click)="sidenav.toggle()">
+          <mat-icon [inline]="true" color="yellow" >
               menu
           </mat-icon>
         </button>
 
             <button mat-button routerLink="''" class="imgchewi">
-            <img src="../assets/img/Chewi.png" alt="">
+            <img src="../assets/img/Chewi.png" alt="" class="icon">
         </button>
 
         </mat-toolbar>
@@ -68,18 +63,15 @@
             <div class="container p-7 text-center text-white">
                 <!-- Section: Social media -->
                 <section>
-                    <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-2" href="#!" role="button">
-                        <fa-icon [icon]="faFacebook"></fa-icon>
-                    </a>
+
 
                     <!-- Twitter -->
-                    <a class="btn btn-outline-light btn-floating m-2" href="#!" role="button">
+                    <a class="btn btn-outline-light btn-floating m-2" href="https://twitter.com/chewbawa" role="button">
                         <fa-icon [icon]="faTwitter"></fa-icon>
                     </a>
 
                     <!-- telegram -->
-                    <a class="btn btn-outline-light btn-floating m-2" href="#!" role="button">
+                    <a class="btn btn-outline-light btn-floating m-2" href="https://t.me/ChewiToken" role="button">
                         <fa-icon [icon]="faTelegram"></fa-icon>
                     </a>
 
